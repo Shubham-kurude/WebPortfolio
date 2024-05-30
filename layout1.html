@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initialscale=1.0">
+<title>Document</title>
+<style>
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+#wrapper
+{
+width: 80%;
+margin: 0 auto;
+}
+#main-logo-nav-div
+{
+width: 100%;
+min-height: 80px;
+border: 2px solid black;
+}
+.logo-div
+{
+width: 30%;
+min-height: 60px;
+border: 1px solid red;
+float: left;
+margin-left: 10px;
+margin-top: 5px;
+text-align: center;
+line-height:60px ;
+}
+.nav-div
+{
+width: 36%;
+min-height: 60px;
+border: 1px solid red;
+float: left;
+margin-left: 10px;
+margin-top: 5px;
+text-align: center;
+line-height:60px ;
+}
+.language-div
+{
+width: 30%;
+min-height: 60px;
+border: 1px solid red;
+float: left;
+margin-left: 10px;
+margin-top: 5px;
+text-align: center;
+line-height:60px ;
+}
+.slider
+{
+width: 100%;
+min-height: 300px;
+border: 3px solid black;
+margin-top: 10px;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+.slider h2
+{
+font-size: 22px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+color: red;
+text-align: center;
+line-height: 300px;
+}
+.main-product-div
+{
+width: 100%;
+min-height: 350px;
+border: 2px solid red;
+margin-top: 10px;
+}
+.main-product-div .box
+{
+width: 32%;
+min-height: 300px;
+border: 2px solid black;
+float: left;
+margin-left: 10px;
+margin-top: 10px;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+.main-product-div .box:nth-child(2)
+{
+margin-left: 8px;
+margin-right: 5px;
+}
+.main-product-div .box h2
+{
+font-family: 'Times New Roman', Times, serif;
+font-size: 28px;
+font-weight: bold;
+color: darkorange;
+text-align: center;
+line-height: 300px;
+}
+.body-area-div
+{
+width: 100%;
+min-height: 400px;
+border: 2px solid black;
+margin-top: 10px;
+}
+.footer
+{
+width: 100%;
+min-height: 60px;
+border: 2px solid black;
+margin-top: 10px;
+}
+.clearfix::after
+{
+content: "";
+display: block;
+clear: both;
+}
+</style>
+</head>
+<body>
+<div id ="wrapper">
+<div id="main-logo-nav-div" class="clearfix">
+<div class="logo-div">
+Logo
+</div>
+<div class="nav-div">
+Navigation
+</div>
+<div class="language-div">
+Choose Language
+</div>
+</div>
+<div class="slider">
+<h2>Slider</h2>
+</div>
+<div class="main-product-div clearfix">
+<div class="box">
+<h2>Box1</h2>
+</div>
+<div class="box">
+<h2>Box2</h2>
+</div>
+<div class="box">
+<h2>Box3</h2>
+</div>
+</div>
+<div class="body-area-div">
+Body contents
+</div>
+<div class="footer">
+Footer
+</div>
+</div>
+</body>
+</html
